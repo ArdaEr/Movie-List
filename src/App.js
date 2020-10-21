@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import movies from './movies';
+import MovieNight from './listMovies';
 
-console.log(movies);
 
 function App() {
   return (
+  
     <div className="container">
-      <h1>Film Listesi</h1>
-      <div>{/* TODO: yapmis oldugumuz componenti buraya ekleyelim */}</div>
+      
+      <h2><font color= "#E8E8E8"> Film listesi</font> </h2>
+
+      
+     <MovieNight/>
     </div>
   );
 }

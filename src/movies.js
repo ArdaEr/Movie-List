@@ -1,3 +1,7 @@
+import React from 'react';
+import MovieNight from './listMovies';
+
+
 const movies = [
   {
     id: 1,
@@ -100,5 +104,6 @@ const movies = [
     description: 'Thriller',
   },
 ];
+
 
 export default movies;
