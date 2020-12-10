@@ -1,10 +1,10 @@
 import React from 'react';
 import './ListRow.css';
 
-function ListRow({ howCaniList }) {
+function ListRow({ description }) {
   return (
     <tr className="howcaniList-item">
-      <td colSpan={3}>{howCaniList}</td>
+      <td colSpan={2}>{description}</td>
     </tr>
   );
 }

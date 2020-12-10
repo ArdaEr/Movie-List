@@ -1,4 +1,6 @@
-.category-item > td {
-    font-size: 18px;
-    font-weight: bold;
-  }
+.howcaniList-item {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown
+}

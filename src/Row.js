@@ -2,12 +2,10 @@ import React from 'react';
 import './Row.css';
 
 
-function Row({ item }) {
+function Row({ movie }) {
   return (
     <tr className="row-item">
-      <td>{item.id}</td>
-      <td>{item.name}</td>
-      <td>{item.price}</td>
+      <td>{movie.title}</td>
     </tr>
   );
 }

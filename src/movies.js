@@ -1,8 +1,10 @@
 import React from 'react';
 import MovieNight from './listMovies';
+import ProductTable from "./ProductTable";
 
 
-const movies = [
+
+const defaultmovies = [
   {
     id: 1,
     title: 'Magic of Méliès, The (magie Méliès, La)',
@@ -106,4 +108,4 @@ const movies = [
 ];
 
 
-export default movies;
+export default defaultmovies;

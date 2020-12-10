@@ -1,5 +1,5 @@
 import React from 'react';
-import movies from "./movies";
+import defaultmovies from "./movies";
 
 
 
@@ -8,7 +8,7 @@ function MovieNight( ) {
     return (
         <div>
         {
-           movies.map(item =>
+           defaultmovies.map(item =>
             {
                 return (
                   
